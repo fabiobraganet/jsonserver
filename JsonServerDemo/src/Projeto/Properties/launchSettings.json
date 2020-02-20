@@ -1,0 +1,10 @@
+{
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/enderecos",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}

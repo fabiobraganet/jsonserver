@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  projeto:
+    container_name: projeto
+    hostname: projeto
+    image: projeto
+    build:
+      context: .
+      dockerfile: src/Projeto/Dockerfile
+
+  jsonserver:
+    container_name: jsonserver
+    hostname: jsonserver
+    image: json-server
+    build:
+      context: .
+      dockerfile: Images/JsonServer/Dockerfile
+
+      
